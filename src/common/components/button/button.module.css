@@ -1,0 +1,24 @@
+.btn {
+    padding: 0px 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid hsl(0, 0%, 20%);
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: hsla(0, 0%, 90%);
+}
+
+.btn p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn svg {
+    font-size: 20px;
+}

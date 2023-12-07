@@ -1,0 +1,31 @@
+.counter {
+    display: flex;
+    border: 2px solid hsl(0, 0%, 20%);
+    border-radius: 5px;
+    overflow: hidden;
+    height: 40px;
+    max-width: 124px;
+}
+
+.counter > button {
+    border: none;
+    width: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 90%);
+}
+
+.counter div{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid hsl(0, 0%, 20%);
+    border-right: 2px solid hsl(0, 0%, 20%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+button.error {
+    cursor: not-allowed;
+}
